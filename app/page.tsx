@@ -123,6 +123,14 @@ export default function Home() {
               </Button>
             </form>
           </Form>
+          <div>
+            <p>
+              もし「submit」を押してもルートが出力されなかった場合は、APIサーバーが眠っちゃっています。以下のリンクをクリックすると、APIサーバーが目覚めます。目覚めさせてからこのページに戻ってきてください。
+            </p>
+            <a className=" text-blue-600" href="https://gaapi.onrender.com/">
+              https://gaapi.onrender.com/
+            </a>
+          </div>
         </main>
       </div>
     </div>
